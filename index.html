@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polarj Sapkota - Personal Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #000000;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #444;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .section {
+            margin: 2rem 0;
+        }
+        h2 {
+            border-bottom: 2px solid #000000;
+            padding-bottom: 0.5rem;
+        }
+        .contact-info, .skills, .education {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-info p, .skills ul, .education ul {
+            margin: 0.5rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Polarj Sapkota</h1>
+        <p>Electrical Engineer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Polarj Sapkota from Kathmandu, Nepal. I am passionate about electromagnetics, math, and design. I am determined to perform and love hardcore design work. My goal is to start an engineering firm in Nepal.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <h3>Field Engineer, GE HealthCare</h3>
+            <p>November 2023 - Present | Nepal & India</p>
+            <ul>
+                <li>Spearheading a project with the Global Qualification Labs team to add up to 40 GHz Signal Integrity testing capabilities to EMI/EMC lab at JFWTC, Bengaluru. Capabilities: sub-nanosecond TDR & S-parameter characterization of high-speed circuits.</li>
+                <li>Led 4 technical sessions to strengthen background knowledge of team in SI & completed 5 certification courses through GEHC's SI vendor.</li>
+                <li>4 installations & multiple corrective action activities of 3T & 1.5T Magnetic Resonance Imaging equipment with Field Services team.</li>
+            </ul>
+            <h3>Control Systems Engineer, Garudeus Aviation Inc</h3>
+            <p>August 2023 - November 2023 | Kathmandu, NP</p>
+            <ul>
+                <li>Developed flight controller using inertial frame approach & motor control algorithms for BLDC motor-based rotors.</li>
+                <li>Developed proprietary automatic load-tester for on-board power circuits testing. Testing range: 1 W to 1 kW.</li>
+                <li>Developed on-board electrical systems & networks for communication between major parts of the vehicle.</li>
+            </ul>
+            <h3>Electrical Engineering Intern, Upper Tamakoshi Hydropower Ltd.</h3>
+            <p>February 2023 - March 2023 | Dolakha, NP</p>
+            <ul>
+                <li>1-month program aimed at training engineers on overall electro-mechanical systems of Nepal's largest hydro-power plant (456 MW).</li>
+                <li>Characterized plant electrically while studying impact on national economy with reference to energy policy.</li>
+                <li>Conducted local load-flow & contingency studies to estimate plant annual revenue and losses.</li>
+            </ul>
+            <h3>Instrumentation Intern, Yatri Motorcycles</h3>
+            <p>February 2022 - May 2022 | Kathmandu, NP</p>
+            <ul>
+                <li>Designed a high-precision 8-step PGA (Programmable Gain Amplifier) development board as a part of the Data Acquisition System for Yatri's test rigs which served to validate FEA results against real-time telemetry data from strain gauges and load cells stuck to the motorcycle.</li>
+                <li>PGA Specs: 8-Ch Multiplexed inputs to 2 PGA chips | Max. gain 128 | CMRR >120dB | 3-bit control.</li>
+                <li>Selected components & sourced them through vendors of chosen PCB manufacturer.</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Real-time thermal rating of overhead transmission lines</li>
+                <li>Binaural recording for acoustic localization of sound sources</li>
+                <li>Design & analysis of feedback control system of a dye-injection process</li>
+                <li>Gamepad haptic feedback module design</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <h3>Circuits & Systems Design</h3>
+                <ul>
+                    <li>High-frequency analog/digital filters & wave-shaping circuits design</li>
+                    <li>Proteus Circuit Design Suite, Multisim, LTSpice, Ki-CAD PCB Suite</li>
+                    <li>FPGA Synthesis with Verilog HDL, Simulink Signal Processing toolboxes</li>
+                    <li>High-speed digital design, SI/PI with Cadence Sigrity, PDN Design</li>
+                    <li>Lab skills: Oscilloscope, Function Generator, VNA, Power-Spectrum Analyzer</li>
+                </ul>
+                <h3>Control Systems</h3>
+                <ul>
+                    <li>Modeling & stability analysis of dynamic systems</li>
+                    <li>Analog/digital control, PID, Full-state feedback, LQR, LQG, Kalman Estimation</li>
+                    <li>Simulink control system toolboxes, Embedded instrumentation with microcontrollers using SPI, UART, I2C</li>
+                </ul>
+                <h3>Power System Design</h3>
+                <ul>
+                    <li>Transmission Line Design, Distribution System Design</li>
+                    <li>Load Flow & Contingency Studies, Switchgear Design, Relay coordination</li>
+                    <li>DIGSilent PowerFactory, ETAP, Simulink Power System toolboxes</li>
+                    <li>Industrial Electrification Design</li>
+                </ul>
+                <h3>Illumination Analysis & Design</h3>
+                <ul>
+                    <li>DiaLUX for color accurate architectural lighting design schemes, luminaire characterization, LED driver design</li>
+                    <li>Lab skills: Goniophotometer, Light Spectrum Analyzer, Lux Meter</li>
+                </ul>
+                <h3>Other</h3>
+                <ul>
+                    <li>Standard ML techniques, C/C++, Python, MATLAB</li>
+                    <li>Comprehensive literature review & research skills, project-management</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <ul>
+                    <li>SI/PI & High-Speed Digital Design Certifications, Teledyne LeCroy Signal Integrity Academy, 2024</li>
+                    <li>Electrical & Electronics Engineering (Power & Control Systems Specialization), Kathmandu University, 2023, 3.32 GPA</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:polarjsapkota@gmail.com">polarjsapkota@gmail.com</a></p>
+                <p>Phone: +977 9861-901-306</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/polarj-sapkota-86239b158/" target="_blank">Polarj Sapkota</a></p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Polarj Sapkota</p>
+    </footer>
+
+</body>
+</html>
